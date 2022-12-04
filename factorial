@@ -1,0 +1,18 @@
+package factorial.oa.a.num.sc;
+import java.util.*;
+public class FactorialOaANumSc {
+
+    public static void main(String[] args) {
+       Scanner s=new Scanner(System.in);
+       int i, n;
+       long fact=1;
+       System.out.println("enter a number");
+       n=s.nextInt();
+       for(i=1;i<=n;i++)
+       {
+        fact=fact*i;
+       }
+       System.out.println("factorial is"+fact);
+    }
+    
+}
